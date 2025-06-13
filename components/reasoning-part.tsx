@@ -176,7 +176,7 @@ export const ReasoningPartView: React.FC<ReasoningPartViewProps> = React.memo(({
         <div 
           onClick={() => isComplete && setIsExpanded(!isExpanded)}
           className={cn(
-            "flex items-center justify-between py-2.5 px-3",
+            "bg-white dark:bg-neutral-900 flex items-center justify-between py-2.5 px-3",
             isComplete && "cursor-pointer",
           )}
         >
